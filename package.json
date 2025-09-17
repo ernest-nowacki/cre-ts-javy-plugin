@@ -1,0 +1,25 @@
+{
+  "name": "@ernest-cll/test-package",
+  "version": "1.0.9",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cre-setup": "bin/setup.js",
+    "cre-compile-workflow": "bin/compile-workflow.js"
+  },
+  "scripts": {
+    "build": "node scripts/compile-javy-sdk-plugin.js"
+  },
+  "keywords": [],
+  "author": "Ernest CLL",
+  "license": "ISC",
+  "description": "Test package: Javy SDK plugin distribution PoC",
+  "files": [
+    "bin/",
+    "src/",
+    "dist/"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
